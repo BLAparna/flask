@@ -14,6 +14,7 @@ RUN apt-get -y update && apt-get install -y python3 python3-pip
 RUN pip install flask Flask-SQLAlchemy
 RUN pip install sqlalchemy
 RUN pip install -r requirements.txt
+RUN pip install nginx
 
 #Expose the required port
 #EXPOSE 5001
